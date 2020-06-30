@@ -1,0 +1,120 @@
+html {
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+
+}
+
+body {
+  background-image: url("../img/sunset.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .navbar-side {
+  left: 0;
+  width: 5%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+}
+
+.navbar-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-side a {
+  padding: 2rem 0;
+}
+
+.social h3 {
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  color: #ffffff;
+  margin-bottom: 10rem;
+  width: 300px;
+}
+
+.wrapper .main-content {
+  width: 100%;
+  margin-left: 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.navbar img {
+  width: 80px;
+  height: 80px;
+  margin-left: 5rem;
+}
+
+.navbar ul li {
+  margin: 0 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.works {
+  display: none;
+}
+
+.works img {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+ul li:hover .works {
+  position: absolute;
+  display: block;
+  top: 30%;
+  right: 0;
+  width: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+ul li:hover .works a {
+  margin: 1rem;
+}
+
+.headline {
+  position: absolute;
+  top: 150%;
+  left: 15%;
+  color: #ffffff;
+}
+
+.headline h1 {
+  font-size: 3.5rem;
+}
